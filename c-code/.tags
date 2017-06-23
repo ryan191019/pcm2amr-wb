@@ -1,0 +1,904 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALPHA	dec_lpc.c	16;"	d	file:
+ALPHA3	enc_dtx.c	50;"	d	file:
+ALPHA4	enc_dtx.c	51;"	d	file:
+ALPHA5	enc_dtx.c	52;"	d	file:
+ALPHA_DOWN1	enc_dtx.c	47;"	d	file:
+ALPHA_DOWN2	enc_dtx.c	49;"	d	file:
+ALPHA_SP_DOWN	enc_dtx.c	37;"	d	file:
+ALPHA_SP_UP	enc_dtx.c	36;"	d	file:
+ALPHA_UP1	enc_dtx.c	46;"	d	file:
+ALPHA_UP2	enc_dtx.c	48;"	d	file:
+AMRWB_MAGIC_NUMBER	decoder.c	14;"	d	file:
+AMRWB_MAGIC_NUMBER	encoder.c	13;"	d	file:
+BURST_HIGH	enc_dtx.c	75;"	d	file:
+BURST_LOW	enc_dtx.c	76;"	d	file:
+BURST_P1	enc_dtx.c	77;"	d	file:
+BURST_P2	enc_dtx.c	78;"	d	file:
+BURST_SLOPE	enc_dtx.c	79;"	d	file:
+COEFF3	enc_dtx.c	96;"	d	file:
+COEFF5_1	enc_dtx.c	97;"	d	file:
+COEFF5_2	enc_dtx.c	98;"	d	file:
+COMPLEN	enc_dtx.h	13;"	d
+Coder_State	enc_main.h	/^} Coder_State;$/;"	t	typeref:struct:__anon7
+DEC_ACELP_H	dec_acelp.h	7;"	d
+DEC_DTX_H	dec_dtx.h	7;"	d
+DEC_GAIN_H	dec_gain.h	7;"	d
+DEC_H	dec.h	7;"	d
+DEC_IF_H	dec_if.h	7;"	d
+DEC_LPC_H	dec_lpc.h	7;"	d
+DEC_MAIN_H	dec_main.h	7;"	d
+DEC_UTIL_H	dec_util.h	7;"	d
+DIST_ISF_MAX	enc_gain.c	21;"	d	file:
+DIST_ISF_MAX_IO	enc_gain.c	20;"	d	file:
+DIST_ISF_THRES	enc_gain.c	22;"	d	file:
+DTX	dec_dtx.h	13;"	d
+DTX_ELAPSED_FRAMES_THRESH	enc_dtx.c	16;"	d	file:
+DTX_HANG_CONST	enc_dtx.c	15;"	d	file:
+DTX_HIST_SIZE	enc_dtx.h	12;"	d
+DTX_HIST_SIZE_MIN_ONE	enc_dtx.c	14;"	d	file:
+D_ACELP_add_pulse	dec_acelp.c	/^static void D_ACELP_add_pulse(Word32 pos[], Word32 nb_pulse,$/;"	f	file:
+D_ACELP_decode_1p_N1	dec_acelp.c	/^static void D_ACELP_decode_1p_N1(Word32 index, Word32 N,$/;"	f	file:
+D_ACELP_decode_2p_2N1	dec_acelp.c	/^static void D_ACELP_decode_2p_2N1(Word32 index, Word32 N,$/;"	f	file:
+D_ACELP_decode_2t	dec_acelp.c	/^void D_ACELP_decode_2t(Word16 index, Word16 code[])$/;"	f
+D_ACELP_decode_3p_3N1	dec_acelp.c	/^static void D_ACELP_decode_3p_3N1(Word32 index, Word32 N,$/;"	f	file:
+D_ACELP_decode_4p_4N	dec_acelp.c	/^static void D_ACELP_decode_4p_4N(Word32 index, Word32 N,$/;"	f	file:
+D_ACELP_decode_4p_4N1	dec_acelp.c	/^static void D_ACELP_decode_4p_4N1(Word32 index, Word32 N,$/;"	f	file:
+D_ACELP_decode_4t	dec_acelp.c	/^void D_ACELP_decode_4t(Word16 index[], Word16 nbbits, Word16 code[])$/;"	f
+D_ACELP_decode_5p_5N	dec_acelp.c	/^static void D_ACELP_decode_5p_5N(Word32 index, Word32 N,$/;"	f	file:
+D_ACELP_decode_6p_6N_2	dec_acelp.c	/^static void D_ACELP_decode_6p_6N_2(Word32 index, Word32 N,$/;"	f	file:
+D_ACELP_phase_dispersion	dec_acelp.c	/^void D_ACELP_phase_dispersion(Word16 gain_code, Word16 gain_pit, Word16 code[],$/;"	f
+D_DTX_ELAPSED_FRAMES_THRESH	dec_dtx.c	29;"	d	file:
+D_DTX_HANG_CONST	dec_dtx.c	28;"	d	file:
+D_DTX_HIST_SIZE	dec_dtx.h	15;"	d
+D_DTX_MAX_EMPTY_THRESH	dec_dtx.c	23;"	d	file:
+D_DTX_MUTE	dec_dtx.h	14;"	d
+D_DTX_State	dec_dtx.h	/^} D_DTX_State;$/;"	t	typeref:struct:__anon1
+D_DTX_activity_update	dec_dtx.c	/^void D_DTX_activity_update(D_DTX_State *st, Word16 isf[], Word16 exc[])$/;"	f
+D_DTX_cn_dithering	dec_dtx.c	/^static void D_DTX_cn_dithering(Word16 isf[M], Word32 *L_log_en_int,$/;"	f	file:
+D_DTX_exe	dec_dtx.c	/^void D_DTX_exe(D_DTX_State *st, Word16 *exc2, Word16 new_state, Word16 isf[],$/;"	f
+D_DTX_exit	dec_dtx.c	/^void D_DTX_exit(D_DTX_State **st)$/;"	f
+D_DTX_init	dec_dtx.c	/^int D_DTX_init(D_DTX_State **st, const Word16 *isf_init)$/;"	f
+D_DTX_reset	dec_dtx.c	/^int D_DTX_reset(D_DTX_State *st, const Word16 *isf_init)$/;"	f
+D_DTX_rx_handler	dec_dtx.c	/^UWord8 D_DTX_rx_handler(D_DTX_State *st, UWord8 frame_type)$/;"	f
+D_GAIN_adaptive_codebook_excitation	dec_gain.c	/^void D_GAIN_adaptive_codebook_excitation(Word16 exc[], Word32 T0, Word32 frac)$/;"	f
+D_GAIN_adaptive_control	dec_gain.c	/^void D_GAIN_adaptive_control(Word16 *sig_in, Word16 *sig_out, Word16 l_trm)$/;"	f
+D_GAIN_decode	dec_gain.c	/^void D_GAIN_decode(Word16 index, Word16 nbits, Word16 code[], Word16 *gain_pit,$/;"	f
+D_GAIN_find_voice_factor	dec_gain.c	/^Word16 D_GAIN_find_voice_factor(Word16 exc[], Word16 Q_exc,$/;"	f
+D_GAIN_init	dec_gain.c	/^void D_GAIN_init(Word16 *mem)$/;"	f
+D_GAIN_insert_lag	dec_gain.c	/^static void D_GAIN_insert_lag(Word16 array[], Word32 n, Word16 x)$/;"	f	file:
+D_GAIN_lag_concealment	dec_gain.c	/^void D_GAIN_lag_concealment(Word16 gain_hist[], Word16 lag_hist[],$/;"	f
+D_GAIN_lag_concealment_init	dec_gain.c	/^void D_GAIN_lag_concealment_init(Word16 lag_hist[])$/;"	f
+D_GAIN_median	dec_gain.c	/^static Word16 D_GAIN_median(Word16 x[])$/;"	f	file:
+D_GAIN_pitch_sharpening	dec_gain.c	/^void D_GAIN_pitch_sharpening(Word16 *x, Word32 pit_lag, Word16 sharp)$/;"	f
+D_GAIN_sort_lag	dec_gain.c	/^static void D_GAIN_sort_lag(Word16 array[], Word16 n)$/;"	f	file:
+D_IF_conversion	dec_if.c	/^Word16 D_IF_conversion(Word16 *param, UWord8 *stream, UWord8 *frame_type,$/;"	f
+D_IF_decode	dec_if.c	/^void D_IF_decode( void *st, UWord8 *bits, Word16 *synth, Word32 lfi)$/;"	f
+D_IF_exit	dec_if.c	/^void D_IF_exit(void *state)$/;"	f
+D_IF_homing_frame_test	dec_if.c	/^Word16 D_IF_homing_frame_test(Word16 input_frame[], Word16 mode)$/;"	f
+D_IF_homing_frame_test_first	dec_if.c	/^Word16 D_IF_homing_frame_test_first(Word16 input_frame[], Word16 mode)$/;"	f
+D_IF_init	dec_if.c	/^void *D_IF_init( void)$/;"	f
+D_IF_mms_conversion	dec_if.c	/^Word16 D_IF_mms_conversion(Word16 *param, UWord8 *stream, UWord8 *frame_type,$/;"	f
+D_IF_reset	dec_if.c	/^void D_IF_reset(WB_dec_if_state *st)$/;"	f
+D_LPC_a_weight	dec_lpc.c	/^void D_LPC_a_weight(Word16 a[], Word16 ap[], Word16 gamma, Word16 m)$/;"	f
+D_LPC_int_isp_find	dec_lpc.c	/^void D_LPC_int_isp_find(Word16 isp_old[], Word16 isp_new[],$/;"	f
+D_LPC_isf_2s3s_decode	dec_lpc.c	/^void D_LPC_isf_2s3s_decode(Word16 *indice, Word16 *isf_q, Word16 *past_isfq,$/;"	f
+D_LPC_isf_2s5s_decode	dec_lpc.c	/^void D_LPC_isf_2s5s_decode(Word16 *indice, Word16 *isf_q, Word16 *past_isfq,$/;"	f
+D_LPC_isf_extrapolation	dec_lpc.c	/^void D_LPC_isf_extrapolation(Word16 HfIsf[])$/;"	f
+D_LPC_isf_isp_conversion	dec_lpc.c	/^void D_LPC_isf_isp_conversion(Word16 isf[], Word16 isp[], Word16 m)$/;"	f
+D_LPC_isf_noise_d	dec_lpc.c	/^void D_LPC_isf_noise_d(Word16 *indice, Word16 *isf_q)$/;"	f
+D_LPC_isf_reorder	dec_lpc.c	/^static void D_LPC_isf_reorder(Word16 *isf, Word16 min_dist, Word16 n)$/;"	f	file:
+D_LPC_isp_a_conversion	dec_lpc.c	/^void D_LPC_isp_a_conversion(Word16 isp[], Word16 a[], Word32 adaptive_scaling, $/;"	f
+D_LPC_isp_pol_get	dec_lpc.c	/^static void D_LPC_isp_pol_get(Word16 *isp, Word32 *f, Word32 n, Word16 k16)$/;"	f	file:
+D_MAIN_close	dec_main.c	/^void D_MAIN_close(void **spd_state)$/;"	f
+D_MAIN_decode	dec_main.c	/^Word32 D_MAIN_decode(Word16 mode, Word16 prms[], Word16 synth16k[],$/;"	f
+D_MAIN_init	dec_main.c	/^Word32 D_MAIN_init(void **spd_state)$/;"	f
+D_MAIN_reset	dec_main.c	/^void D_MAIN_reset(void *st, Word16 reset_all)$/;"	f
+D_ROM_cdown_unusable	dec_rom.c	/^const Word16 D_ROM_cdown_unusable[7] = {32767, 16384, 8192, 8192, 8192, 4915, 3277};$/;"	v
+D_ROM_cdown_usable	dec_rom.c	/^const Word16 D_ROM_cdown_usable[7] = {32767, 32113, 32113, 32113, 32113, 32113, 22938};$/;"	v
+D_ROM_cos	dec_rom.c	/^const Word16 D_ROM_cos[129] = {$/;"	v
+D_ROM_dico1_isf	dec_rom.c	/^const Word16 D_ROM_dico1_isf[SIZE_BK1 * 9] = {$/;"	v
+D_ROM_dico1_isf_noise	dec_rom.c	/^const Word16 D_ROM_dico1_isf_noise[SIZE_BK_NOISE1 * 2] = {$/;"	v
+D_ROM_dico21_isf	dec_rom.c	/^const Word16 D_ROM_dico21_isf[SIZE_BK21 * 3] = {$/;"	v
+D_ROM_dico21_isf_36b	dec_rom.c	/^const Word16 D_ROM_dico21_isf_36b[SIZE_BK21_36b * 5] = {$/;"	v
+D_ROM_dico22_isf	dec_rom.c	/^const Word16 D_ROM_dico22_isf[SIZE_BK22 * 3] = {$/;"	v
+D_ROM_dico22_isf_36b	dec_rom.c	/^const Word16 D_ROM_dico22_isf_36b[SIZE_BK22_36b * 4] = {$/;"	v
+D_ROM_dico23_isf	dec_rom.c	/^const Word16 D_ROM_dico23_isf[SIZE_BK23 * 3] = {$/;"	v
+D_ROM_dico23_isf_36b	dec_rom.c	/^const Word16 D_ROM_dico23_isf_36b[SIZE_BK23_36b * 7] = {$/;"	v
+D_ROM_dico24_isf	dec_rom.c	/^const Word16 D_ROM_dico24_isf[SIZE_BK24 * 3] = {$/;"	v
+D_ROM_dico25_isf	dec_rom.c	/^const Word16 D_ROM_dico25_isf[SIZE_BK25 * 4] = {$/;"	v
+D_ROM_dico2_isf	dec_rom.c	/^const Word16 D_ROM_dico2_isf[SIZE_BK2 * 7] = {$/;"	v
+D_ROM_dico2_isf_noise	dec_rom.c	/^const Word16 D_ROM_dico2_isf_noise[SIZE_BK_NOISE2 * 3] = {$/;"	v
+D_ROM_dico3_isf_noise	dec_rom.c	/^const Word16 D_ROM_dico3_isf_noise[SIZE_BK_NOISE3 * 3] = {$/;"	v
+D_ROM_dico4_isf_noise	dec_rom.c	/^const Word16 D_ROM_dico4_isf_noise[SIZE_BK_NOISE4 * 4] = {$/;"	v
+D_ROM_dico5_isf_noise	dec_rom.c	/^const Word16 D_ROM_dico5_isf_noise[SIZE_BK_NOISE5 * 4] = {$/;"	v
+D_ROM_fir_6k_7k	dec_rom.c	/^const Word16 D_ROM_fir_6k_7k[L_FIR] = {$/;"	v
+D_ROM_fir_7k	dec_rom.c	/^const Word16 D_ROM_fir_7k[L_FIR] = {$/;"	v
+D_ROM_fir_down	dec_rom.c	/^const Word16 D_ROM_fir_down[120] = {$/;"	v
+D_ROM_fir_up	dec_rom.c	/^const Word16 D_ROM_fir_up[120] = {$/;"	v
+D_ROM_hp_gain	dec_rom.c	/^const Word16 D_ROM_hp_gain[16] = {$/;"	v
+D_ROM_inter4_2	dec_rom.c	/^const Word16 D_ROM_inter4_2[UP_SAMP * 2 * L_INTERPOL2] = {$/;"	v
+D_ROM_interpol_frac	dec_rom.c	/^const Word16 D_ROM_interpol_frac[NB_SUBFR] = {14746, 26214, 31457, 32767};$/;"	v
+D_ROM_isf	dec_rom.c	/^const Word16 D_ROM_isf[M] = {$/;"	v
+D_ROM_isp	dec_rom.c	/^const Word16 D_ROM_isp[M] = {$/;"	v
+D_ROM_isqrt	dec_rom.c	/^const Word16 D_ROM_isqrt[49] = {$/;"	v
+D_ROM_log2	dec_rom.c	/^const Word16 D_ROM_log2[33] = {$/;"	v
+D_ROM_mean_isf	dec_rom.c	/^const Word16 D_ROM_mean_isf[ORDER] = {$/;"	v
+D_ROM_mean_isf_noise	dec_rom.c	/^const Word16 D_ROM_mean_isf_noise[ORDER] = {$/;"	v
+D_ROM_pdown_unusable	dec_rom.c	/^const Word16 D_ROM_pdown_unusable[7] = {32767, 31130, 29491, 24576, 7537, 1638, 328};$/;"	v
+D_ROM_pdown_usable	dec_rom.c	/^const Word16 D_ROM_pdown_usable[7] = {32767, 32113, 31457, 24576, 7537, 1638, 328};$/;"	v
+D_ROM_ph_imp_low	dec_rom.c	/^const Word16 D_ROM_ph_imp_low[L_SUBFR] = {$/;"	v
+D_ROM_ph_imp_mid	dec_rom.c	/^const Word16 D_ROM_ph_imp_mid[L_SUBFR] = {$/;"	v
+D_ROM_pow2	dec_rom.c	/^const Word16 D_ROM_pow2[33] = {$/;"	v
+D_ROM_qua_gain6b	dec_rom.c	/^const Word16 D_ROM_qua_gain6b[64 * 2] = {$/;"	v
+D_ROM_qua_gain7b	dec_rom.c	/^const Word16 D_ROM_qua_gain7b[128 * 2] = {$/;"	v
+D_UTIL_bp_6k_7k	dec_util.c	/^void D_UTIL_bp_6k_7k(Word16 signal[], Word16 lg, Word16 mem[])$/;"	f
+D_UTIL_dec_synthesis	dec_util.c	/^void D_UTIL_dec_synthesis(Word16 Aq[], Word16 exc[], Word16 Q_new,$/;"	f
+D_UTIL_deemph_32	dec_util.c	/^static void D_UTIL_deemph_32(Word16 x_hi[], Word16 x_lo[], Word16 y[],$/;"	f	file:
+D_UTIL_dot_product12	dec_util.c	/^Word32 D_UTIL_dot_product12(Word16 x[], Word16 y[], Word16 lg, Word16 *exp)$/;"	f
+D_UTIL_hp400_12k8	dec_util.c	/^void D_UTIL_hp400_12k8(Word16 signal[], Word16 lg, Word16 mem[])$/;"	f
+D_UTIL_hp50_12k8	dec_util.c	/^static void D_UTIL_hp50_12k8(Word16 signal[], Word16 lg, Word16 mem[])$/;"	f	file:
+D_UTIL_hp_7k	dec_util.c	/^static void D_UTIL_hp_7k(Word16 signal[], Word16 lg, Word16 mem[])$/;"	f	file:
+D_UTIL_interpol	dec_util.c	/^Word16 D_UTIL_interpol(Word16 *x, Word16 const *fir, Word16 frac,$/;"	f
+D_UTIL_inverse_sqrt	dec_util.c	/^Word32 D_UTIL_inverse_sqrt(Word32 L_x)$/;"	f
+D_UTIL_l_extract	dec_util.c	/^void D_UTIL_l_extract(Word32 L_32, Word16 *hi, Word16 *lo)$/;"	f
+D_UTIL_log2	dec_util.c	/^void D_UTIL_log2(Word32 L_x, Word16 *exponent, Word16 *fraction)$/;"	f
+D_UTIL_mpy_32	dec_util.c	/^Word32 D_UTIL_mpy_32(Word16 hi1, Word16 lo1, Word16 hi2, Word16 lo2)$/;"	f
+D_UTIL_mpy_32_16	dec_util.c	/^Word32 D_UTIL_mpy_32_16(Word16 hi, Word16 lo, Word16 n)$/;"	f
+D_UTIL_norm_l	dec_util.c	/^Word16 D_UTIL_norm_l(Word32 L_var1)$/;"	f
+D_UTIL_norm_s	dec_util.c	/^Word16 D_UTIL_norm_s(Word16 var1)$/;"	f
+D_UTIL_normalised_inverse_sqrt	dec_util.c	/^void D_UTIL_normalised_inverse_sqrt(Word32 *frac, Word16 *exp)$/;"	f
+D_UTIL_normalised_log2	dec_util.c	/^static void D_UTIL_normalised_log2(Word32 L_x, Word16 exp, Word16 *exponent,$/;"	f	file:
+D_UTIL_oversamp_16k	dec_util.c	/^static void D_UTIL_oversamp_16k(Word16 sig12k8[], Word16 lg, Word16 sig16k[],$/;"	f	file:
+D_UTIL_pow2	dec_util.c	/^Word32 D_UTIL_pow2(Word16 exponant, Word16 fraction)$/;"	f
+D_UTIL_preemph	dec_util.c	/^void D_UTIL_preemph(Word16 x[], Word16 mu, Word16 lg, Word16 *mem)$/;"	f
+D_UTIL_random	dec_util.c	/^Word16 D_UTIL_random(Word16 *seed)$/;"	f
+D_UTIL_saturate	dec_util.c	/^Word16 D_UTIL_saturate(Word32 inp)$/;"	f
+D_UTIL_signal_down_scale	dec_util.c	/^void D_UTIL_signal_down_scale(Word16 x[], Word16 lg, Word16 exp)$/;"	f
+D_UTIL_signal_up_scale	dec_util.c	/^void D_UTIL_signal_up_scale(Word16 x[], Word16 lg, Word16 exp)$/;"	f
+D_UTIL_synthesis	dec_util.c	/^static void D_UTIL_synthesis(Word16 a[], Word16 m, Word16 x[], Word16 y[],$/;"	f	file:
+D_UTIL_synthesis_32	dec_util.c	/^static void D_UTIL_synthesis_32(Word16 a[], Word16 m, Word16 exc[],$/;"	f	file:
+D_UTIL_up_samp	dec_util.c	/^static void D_UTIL_up_samp(Word16 *sig_d, Word16 *sig_u, Word16 L_frame)$/;"	f	file:
+Decoder_State	dec_main.h	/^} Decoder_State;$/;"	t	typeref:struct:__anon3
+EHF_MASK	dec_if.c	27;"	d	file:
+EHF_MASK	enc_if.c	14;"	d	file:
+ENC_E_ACELP_H	enc_acelp.h	7;"	d
+ENC_F_DTX_H	enc_dtx.h	7;"	d
+ENC_GAIN_H	enc_gain.h	7;"	d
+ENC_H	enc.h	7;"	d
+ENC_LPC_H	enc_lpc.h	7;"	d
+ENC_MAIN_H	enc_main.h	7;"	d
+ENC_UTIL_H	enc_util.h	7;"	d
+E_ACELP_2pulse_search	enc_acelp.c	/^static void E_ACELP_2pulse_search(Word32 nb_pos_ix, UWord8 track_x,$/;"	f	file:
+E_ACELP_2t	enc_acelp.c	/^void E_ACELP_2t(Float32 dn[], Float32 cn[], Float32 H[],$/;"	f
+E_ACELP_4t	enc_acelp.c	/^void E_ACELP_4t(Float32 dn[], Float32 cn[], Float32 H[], Word16 code[],$/;"	f
+E_ACELP_Gain2_Q_init	enc_acelp.c	/^void E_ACELP_Gain2_Q_init(Word16 *mem)$/;"	f
+E_ACELP_codebook_target_update	enc_acelp.c	/^void E_ACELP_codebook_target_update(Float32 *x, Float32 *x2, Float32 *y,$/;"	f
+E_ACELP_gains_quantise	enc_acelp.c	/^Word32 E_ACELP_gains_quantise(Word16 code[], Word32 nbits, Float32 f_gain_pit,$/;"	f
+E_ACELP_h_vec_corr1	enc_acelp.c	/^static void E_ACELP_h_vec_corr1(Float32 h[], Float32 vec[], UWord8 track,$/;"	f	file:
+E_ACELP_h_vec_corr2	enc_acelp.c	/^static void E_ACELP_h_vec_corr2(Float32 h[], Float32 vec[], UWord8 track,$/;"	f	file:
+E_ACELP_quant_1p_N1	enc_acelp.c	/^static Word32 E_ACELP_quant_1p_N1(Word32 pos, Word32 N)$/;"	f	file:
+E_ACELP_quant_2p_2N1	enc_acelp.c	/^static Word32 E_ACELP_quant_2p_2N1(Word32 pos1, Word32 pos2, Word32 N)$/;"	f	file:
+E_ACELP_quant_3p_3N1	enc_acelp.c	/^static Word32 E_ACELP_quant_3p_3N1(Word32 pos1, Word32 pos2, Word32 pos3,$/;"	f	file:
+E_ACELP_quant_4p_4N	enc_acelp.c	/^static Word32 E_ACELP_quant_4p_4N(Word32 pos[], Word32 N)$/;"	f	file:
+E_ACELP_quant_4p_4N1	enc_acelp.c	/^static Word32 E_ACELP_quant_4p_4N1(Word32 pos1, Word32 pos2, Word32 pos3,$/;"	f	file:
+E_ACELP_quant_5p_5N	enc_acelp.c	/^static Word32 E_ACELP_quant_5p_5N(Word32 pos[], Word32 N)$/;"	f	file:
+E_ACELP_quant_6p_6N_2	enc_acelp.c	/^static Word32 E_ACELP_quant_6p_6N_2(Word32 pos[], Word32 N)$/;"	f	file:
+E_ACELP_xh_corr	enc_acelp.c	/^void E_ACELP_xh_corr(Float32 *x, Float32 *y, Float32 *h)$/;"	f
+E_ACELP_xy1_corr	enc_acelp.c	/^Float32 E_ACELP_xy1_corr(Float32 xn[], Float32 y1[], Float32 g_corr[])$/;"	f
+E_ACELP_xy2_corr	enc_acelp.c	/^void E_ACELP_xy2_corr(Float32 xn[], Float32 y1[], Float32 y2[],$/;"	f
+E_DTX_State	enc_dtx.h	/^} E_DTX_State;$/;"	t	typeref:struct:__anon4
+E_DTX_Vad_State	enc_dtx.h	/^} E_DTX_Vad_State;$/;"	t	typeref:struct:__anon5
+E_DTX_buffer	enc_dtx.c	/^void E_DTX_buffer(E_DTX_State *st, Float32 isf_new[], Float32 enr,$/;"	f
+E_DTX_decision	enc_dtx.c	/^static Word16 E_DTX_decision(E_DTX_Vad_State *st, Float32 level[COMPLEN], Float64 pow_sum)$/;"	f	file:
+E_DTX_dithering_control	enc_dtx.c	/^static Word16 E_DTX_dithering_control(E_DTX_State * st)$/;"	f	file:
+E_DTX_exe	enc_dtx.c	/^void E_DTX_exe(E_DTX_State *st, Float32 *exc2, Word16 **pt_prms)$/;"	f
+E_DTX_exit	enc_dtx.c	/^void E_DTX_exit (E_DTX_State **st)$/;"	f
+E_DTX_filter3	enc_dtx.c	/^static void E_DTX_filter3(Float32 *in0, Float32 *in1, Float32 *data)$/;"	f	file:
+E_DTX_filter5	enc_dtx.c	/^static void E_DTX_filter5(Float32 *in0, Float32 *in1,  Float32 data[])$/;"	f	file:
+E_DTX_filter_bank	enc_dtx.c	/^static void E_DTX_filter_bank(E_DTX_Vad_State *st, Float32 in[],$/;"	f	file:
+E_DTX_frame_indices_find	enc_dtx.c	/^static void E_DTX_frame_indices_find(E_DTX_State * st, Word16 indices[])$/;"	f	file:
+E_DTX_hangover_addition	enc_dtx.c	/^static Word16 E_DTX_hangover_addition(E_DTX_Vad_State *st, Word16 low_power,$/;"	f	file:
+E_DTX_init	enc_dtx.c	/^Word32 E_DTX_init (E_DTX_State **st)$/;"	f
+E_DTX_isf_history_aver	enc_dtx.c	/^static void E_DTX_isf_history_aver(Float32 isf_old[], Word16 indices[],$/;"	f	file:
+E_DTX_isf_q	enc_dtx.c	/^static void E_DTX_isf_q(Float32 *isf, Word16 **indice)$/;"	f	file:
+E_DTX_level_calculation	enc_dtx.c	/^static Float32 E_DTX_level_calculation(Float32 data[], Float32 *sub_level,$/;"	f	file:
+E_DTX_noise_estimate_update	enc_dtx.c	/^static void E_DTX_noise_estimate_update(E_DTX_Vad_State *st, Float32 level[])$/;"	f	file:
+E_DTX_pitch_tone_detection	enc_dtx.c	/^void E_DTX_pitch_tone_detection (E_DTX_Vad_State *st, Float32 p_gain)$/;"	f
+E_DTX_reset	enc_dtx.c	/^Word32 E_DTX_reset(E_DTX_State *st)$/;"	f
+E_DTX_speech_estimate	enc_dtx.c	/^static void E_DTX_speech_estimate(E_DTX_Vad_State *st, Float32 in_level)$/;"	f	file:
+E_DTX_tx_handler	enc_dtx.c	/^void E_DTX_tx_handler(E_DTX_State *st, Word32 vad_flag, Word16 *usedMode)$/;"	f
+E_DTX_update_cntrl	enc_dtx.c	/^static void E_DTX_update_cntrl(E_DTX_Vad_State *st, Float32 level[])$/;"	f	file:
+E_DTX_vad	enc_dtx.c	/^Word16 E_DTX_vad(E_DTX_Vad_State *st, Float32 in_buf[])$/;"	f
+E_DTX_vad_exit	enc_dtx.c	/^void E_DTX_vad_exit (E_DTX_Vad_State **state)$/;"	f
+E_DTX_vad_init	enc_dtx.c	/^Word32 E_DTX_vad_init (E_DTX_Vad_State **state)$/;"	f
+E_DTX_vad_reset	enc_dtx.c	/^Word32 E_DTX_vad_reset (E_DTX_Vad_State *state)$/;"	f
+E_GAIN_adaptive_codebook_excitation	enc_gain.c	/^void E_GAIN_adaptive_codebook_excitation(Word16 exc[], Word16 T0, Word32 frac, Word16 L_subfr)$/;"	f
+E_GAIN_clip_init	enc_gain.c	/^void E_GAIN_clip_init(Float32 mem[])$/;"	f
+E_GAIN_clip_isf_test	enc_gain.c	/^void E_GAIN_clip_isf_test(Word16 mode, Float32 isf[], Float32 mem[])$/;"	f
+E_GAIN_clip_pit_test	enc_gain.c	/^void E_GAIN_clip_pit_test(Word16 mode, Float32 gain_pit, Float32 mem[])$/;"	f
+E_GAIN_clip_test	enc_gain.c	/^Word32 E_GAIN_clip_test(Word16 mode, Float32 mem[])$/;"	f
+E_GAIN_closed_loop_search	enc_gain.c	/^Word32 E_GAIN_closed_loop_search(Float32 exc[], Float32 xn[], Float32 h[],$/;"	f
+E_GAIN_f_pitch_sharpening	enc_gain.c	/^void E_GAIN_f_pitch_sharpening(Float32 *x, Word32 pit_lag)$/;"	f
+E_GAIN_lp_decim2	enc_gain.c	/^void E_GAIN_lp_decim2(Float32 x[], Word32 l, Float32 *mem)$/;"	f
+E_GAIN_norm_corr	enc_gain.c	/^static void E_GAIN_norm_corr(Float32 exc[], Float32 xn[], Float32 h[],$/;"	f	file:
+E_GAIN_norm_corr_interpolate	enc_gain.c	/^static Float32 E_GAIN_norm_corr_interpolate(Float32 *x, Word32 frac)$/;"	f	file:
+E_GAIN_olag_median	enc_gain.c	/^Word32 E_GAIN_olag_median(Word32 prev_ol_lag, Word32 old_ol_lag[5])$/;"	f
+E_GAIN_open_loop_search	enc_gain.c	/^Word32 E_GAIN_open_loop_search(Float32 *wsp, Word32 L_min, Word32 L_max,$/;"	f
+E_GAIN_pitch_sharpening	enc_gain.c	/^void E_GAIN_pitch_sharpening(Word16 *x, Word16 pit_lag)$/;"	f
+E_GAIN_sort	enc_gain.c	/^static void E_GAIN_sort(Word32 n, Word32 *ra)$/;"	f	file:
+E_GAIN_voice_factor	enc_gain.c	/^Word32 E_GAIN_voice_factor(Word16 exc[], Word16 Q_exc, Word16 gain_pit,$/;"	f
+E_IF_encode	enc_if.c	/^int E_IF_encode(void *st, Word16 req_mode, Word16 *speech, UWord8 *serial,$/;"	f
+E_IF_exit	enc_if.c	/^void E_IF_exit(void *state)$/;"	f
+E_IF_homing_coding	enc_if.c	/^void E_IF_homing_coding(Word16 *parms, Word16 mode)$/;"	f
+E_IF_homing_frame_test	enc_if.c	/^Word16 E_IF_homing_frame_test(Word16 input_frame[])$/;"	f
+E_IF_if2_conversion	enc_if.c	/^static int E_IF_if2_conversion(Word16 mode, Word16 *param, UWord8 *stream,$/;"	f	file:
+E_IF_init	enc_if.c	/^void *E_IF_init(void)$/;"	f
+E_IF_mms_conversion	enc_if.c	/^static int E_IF_mms_conversion(Word16 mode, Word16 *param, UWord8 *stream,$/;"	f	file:
+E_IF_sid_sync_reset	enc_if.c	/^static void E_IF_sid_sync_reset(WB_enc_if_state *st)$/;"	f	file:
+E_LPC_a_isp_conversion	enc_lpc.c	/^void E_LPC_a_isp_conversion(Float32 *a, Float32 *isp, Float32 *old_isp,$/;"	f
+E_LPC_a_weight	enc_lpc.c	/^void E_LPC_a_weight(Float32 *a, Float32 *ap, Float32 gamma, Word32 m)$/;"	f
+E_LPC_chebyshev	enc_lpc.c	/^static Float32 E_LPC_chebyshev(Float32 x, Float32 *f, Word32 n)$/;"	f	file:
+E_LPC_f_int_isp_find	enc_lpc.c	/^void E_LPC_f_int_isp_find(Float32 isp_old[], Float32 isp_new[], Float32 a[],$/;"	f
+E_LPC_f_isp_a_conversion	enc_lpc.c	/^void E_LPC_f_isp_a_conversion(Float32 *isp, Float32 *a, Word32 m)$/;"	f
+E_LPC_f_isp_pol_get	enc_lpc.c	/^static void E_LPC_f_isp_pol_get(Float32 isp[], Float32 f[], Word32 n)$/;"	f	file:
+E_LPC_int_isp_find	enc_lpc.c	/^void E_LPC_int_isp_find(Word16 isp_old[], Word16 isp_new[],$/;"	f
+E_LPC_isf_2s3s_decode	enc_lpc.c	/^static void E_LPC_isf_2s3s_decode(Word32 *indice, Word16 *isf_q,$/;"	f	file:
+E_LPC_isf_2s3s_quantise	enc_lpc.c	/^void E_LPC_isf_2s3s_quantise(Float32 *isf1, Word16 *isf_q, Word16 *past_isfq,$/;"	f
+E_LPC_isf_2s5s_decode	enc_lpc.c	/^void E_LPC_isf_2s5s_decode(Word32 *indice, Word16 *isf_q, Word16 *past_isfq)$/;"	f
+E_LPC_isf_2s5s_quantise	enc_lpc.c	/^void E_LPC_isf_2s5s_quantise(Float32 *isf1, Word16 *isf_q, Word16 *past_isfq,$/;"	f
+E_LPC_isf_isp_conversion	enc_lpc.c	/^void E_LPC_isf_isp_conversion(Word16 isf[], Word16 isp[], Word16 m)$/;"	f
+E_LPC_isf_reorder	enc_lpc.c	/^static void E_LPC_isf_reorder(Word16 *isf, Word16 min_dist, Word16 n)$/;"	f	file:
+E_LPC_isf_sub_vq	enc_lpc.c	/^Word16 E_LPC_isf_sub_vq(Float32 *x, const Float32 *E_ROM_dico, Word32 dim,$/;"	f
+E_LPC_isp_a_conversion	enc_lpc.c	/^void E_LPC_isp_a_conversion(Word16 isp[], Word16 a[], Word16 m)$/;"	f
+E_LPC_isp_isf_conversion	enc_lpc.c	/^void E_LPC_isp_isf_conversion(Float32 isp[], Float32 isf[], Word32 m)$/;"	f
+E_LPC_isp_pol_get	enc_lpc.c	/^static void E_LPC_isp_pol_get(Word16 *isp, Word32 *f, Word32 n, Word16 k16)$/;"	f	file:
+E_LPC_lag_wind	enc_lpc.c	/^void E_LPC_lag_wind(Float32 r[], Word32 m)$/;"	f
+E_LPC_lev_dur	enc_lpc.c	/^void E_LPC_lev_dur(Float32 *a, Float32 *r, Word32 m)$/;"	f
+E_LPC_stage1_isf_vq	enc_lpc.c	/^static void E_LPC_stage1_isf_vq(Float32 *x, const Float32 *E_ROM_dico,$/;"	f	file:
+E_MAIN_close	enc_main.c	/^void E_MAIN_close(void **spe_state)$/;"	f
+E_MAIN_encode	enc_main.c	/^Word16 E_MAIN_encode(Word16 * mode, Word16 speech16k[], Word16 prms[],$/;"	f
+E_MAIN_init	enc_main.c	/^Word16 E_MAIN_init(void **spe_state)$/;"	f
+E_MAIN_parm_store	enc_main.c	/^static void E_MAIN_parm_store(Word32 value, Word16 **prms)$/;"	f	file:
+E_MAIN_reset	enc_main.c	/^void E_MAIN_reset(void *st, Word16 reset_all)$/;"	f
+E_ROM_cdown_unusable	enc_rom.c	/^const Word16 E_ROM_cdown_unusable[7] = {32767, 16384, 8192, 8192, 8192, 4915, 3277};$/;"	v
+E_ROM_cdown_usable	enc_rom.c	/^const Word16 E_ROM_cdown_usable[7] = {32767, 32113, 32113, 32113, 32113, 32113, 22938};$/;"	v
+E_ROM_corrweight	enc_rom.c	/^const Float32 E_ROM_corrweight[199]= {$/;"	v
+E_ROM_cos	enc_rom.c	/^const Word16 E_ROM_cos[129] = {$/;"	v
+E_ROM_dico1_isf	enc_rom.c	/^const Float32 E_ROM_dico1_isf[SIZE_BK1 * 9] = {$/;"	v
+E_ROM_dico1_isf_noise	enc_rom.c	/^const Float32 E_ROM_dico1_isf_noise[SIZE_BK_NOISE1 * 2] = {$/;"	v
+E_ROM_dico21_isf	enc_rom.c	/^const Float32 E_ROM_dico21_isf[SIZE_BK21 * 3] = {$/;"	v
+E_ROM_dico21_isf_36b	enc_rom.c	/^const Float32 E_ROM_dico21_isf_36b[SIZE_BK21_36b * 5] = {$/;"	v
+E_ROM_dico22_isf	enc_rom.c	/^const Float32 E_ROM_dico22_isf[SIZE_BK22 * 3] = {$/;"	v
+E_ROM_dico22_isf_36b	enc_rom.c	/^const Float32 E_ROM_dico22_isf_36b[SIZE_BK22_36b * 4] = {$/;"	v
+E_ROM_dico23_isf	enc_rom.c	/^const Float32 E_ROM_dico23_isf[SIZE_BK23 * 3] = {$/;"	v
+E_ROM_dico23_isf_36b	enc_rom.c	/^const Float32 E_ROM_dico23_isf_36b[SIZE_BK23_36b * 7] = {$/;"	v
+E_ROM_dico24_isf	enc_rom.c	/^const Float32 E_ROM_dico24_isf[SIZE_BK24 * 3] = {$/;"	v
+E_ROM_dico25_isf	enc_rom.c	/^const Float32 E_ROM_dico25_isf[SIZE_BK25 * 4] = {$/;"	v
+E_ROM_dico2_isf	enc_rom.c	/^const Float32 E_ROM_dico2_isf[SIZE_BK2 * 7] = {$/;"	v
+E_ROM_dico2_isf_noise	enc_rom.c	/^const Float32 E_ROM_dico2_isf_noise[SIZE_BK_NOISE2 * 3] = {$/;"	v
+E_ROM_dico3_isf_noise	enc_rom.c	/^const Float32 E_ROM_dico3_isf_noise[SIZE_BK_NOISE3 * 3] = {$/;"	v
+E_ROM_dico4_isf_noise	enc_rom.c	/^const Float32 E_ROM_dico4_isf_noise[SIZE_BK_NOISE4 * 4] = {$/;"	v
+E_ROM_dico5_isf_noise	enc_rom.c	/^const Float32 E_ROM_dico5_isf_noise[SIZE_BK_NOISE5 * 4] = {$/;"	v
+E_ROM_en_adjust	enc_rom.c	/^const Float32 E_ROM_en_adjust[9] = {$/;"	v
+E_ROM_f_interpol_frac	enc_rom.c	/^const Float32 E_ROM_f_interpol_frac[NB_SUBFR] = {0.45F, 0.8F, 0.96F, 1.0F};$/;"	v
+E_ROM_f_mean_isf	enc_rom.c	/^const Float32 E_ROM_f_mean_isf[ORDER] = {$/;"	v
+E_ROM_fir_6k_7k	enc_rom.c	/^const Float32 E_ROM_fir_6k_7k[31] = {$/;"	v
+E_ROM_fir_down	enc_rom.c	/^const Word16 E_ROM_fir_down[120] = {$/;"	v
+E_ROM_fir_ipol	enc_rom.c	/^const Float32 E_ROM_fir_ipol[61] = {$/;"	v
+E_ROM_fir_up	enc_rom.c	/^const Word16 E_ROM_fir_up[120] = {$/;"	v
+E_ROM_grid	enc_rom.c	/^const Float32 E_ROM_grid[101] = {$/;"	v
+E_ROM_hamming_cos	enc_rom.c	/^const Float32 E_ROM_hamming_cos[L_WINDOW] = {$/;"	v
+E_ROM_hp_gain	enc_rom.c	/^const Float32 E_ROM_hp_gain[16] = {$/;"	v
+E_ROM_inter4_1	enc_rom.c	/^const Float32 E_ROM_inter4_1[UP_SAMP * L_INTERPOL1 + 1] = {$/;"	v
+E_ROM_inter4_2	enc_rom.c	/^const Word16 E_ROM_inter4_2[UP_SAMP * 2 * L_INTERPOL2] = {$/;"	v
+E_ROM_interpol_frac	enc_rom.c	/^const Word16 E_ROM_interpol_frac[NB_SUBFR] = {14746, 26214, 31457, 32767};$/;"	v
+E_ROM_isf	enc_rom.c	/^const Float32 E_ROM_isf[M] = {$/;"	v
+E_ROM_isp	enc_rom.c	/^const Word16 E_ROM_isp[M] = {$/;"	v
+E_ROM_isqrt	enc_rom.c	/^const Word16 E_ROM_isqrt[49] = {$/;"	v
+E_ROM_lag_window	enc_rom.c	/^const Float32 E_ROM_lag_window[M] = { \/*1.00000000    (not stored)*\/$/;"	v
+E_ROM_log2	enc_rom.c	/^const Word16 E_ROM_log2[33] = {$/;"	v
+E_ROM_mean_isf	enc_rom.c	/^const Word16 E_ROM_mean_isf[ORDER] = {$/;"	v
+E_ROM_mean_isf_noise	enc_rom.c	/^const Float32 E_ROM_mean_isf_noise[16] = {$/;"	v
+E_ROM_pdown_unusable	enc_rom.c	/^const Word16 E_ROM_pdown_unusable[7] = {32767, 31130, 29491, 24576, 7537, 1638, 328};$/;"	v
+E_ROM_pdown_usable	enc_rom.c	/^const Word16 E_ROM_pdown_usable[7] = {32767, 32113, 31457, 24576, 7537, 1638, 328};$/;"	v
+E_ROM_pow2	enc_rom.c	/^const Word16 E_ROM_pow2[33] = {$/;"	v
+E_ROM_qua_gain6b	enc_rom.c	/^const Float32 E_ROM_qua_gain6b[NB_QUA_GAIN6B * 2] = {$/;"	v
+E_ROM_qua_gain7b	enc_rom.c	/^const Float32 E_ROM_qua_gain7b[NB_QUA_GAIN7B * 2] = {$/;"	v
+E_ROM_tipos	enc_rom.c	/^const UWord8 E_ROM_tipos[36] = {$/;"	v
+E_UTIL_autocorr	enc_util.c	/^void E_UTIL_autocorr(Float32 *x, Float32 *r)$/;"	f
+E_UTIL_bp_6k_7k	enc_util.c	/^static void E_UTIL_bp_6k_7k(Float32 signal[], Word32 lg, Float32 mem[])$/;"	f	file:
+E_UTIL_convolve	enc_util.c	/^void E_UTIL_convolve(Word16 x[], Word16 q, Float32 h[], Float32 y[])$/;"	f
+E_UTIL_decim_12k8	enc_util.c	/^void E_UTIL_decim_12k8(Float32 sig16k[], Word32 lg, Float32 sig12k8[],$/;"	f
+E_UTIL_deemph	enc_util.c	/^void E_UTIL_deemph(Float32 *signal, Float32 mu, Word32 L, Float32 *mem)$/;"	f
+E_UTIL_dot_product12	enc_util.c	/^Word32 E_UTIL_dot_product12(Word16 x[], Word16 y[], Word32 lg, Word32 *exp)$/;"	f
+E_UTIL_down_samp	enc_util.c	/^static void E_UTIL_down_samp(Float32 *res, Float32 *res_d, Word32 L_frame_d)$/;"	f	file:
+E_UTIL_enc_synthesis	enc_util.c	/^Word32 E_UTIL_enc_synthesis(Float32 Aq[], Float32 exc[], Float32 synth16k[],$/;"	f
+E_UTIL_f_convolve	enc_util.c	/^void E_UTIL_f_convolve(Float32 x[], Float32 h[], Float32 y[])$/;"	f
+E_UTIL_f_preemph	enc_util.c	/^void E_UTIL_f_preemph(Float32 *signal, Float32 mu, Word32 L, Float32 *mem)$/;"	f
+E_UTIL_hp400_12k8	enc_util.c	/^static void E_UTIL_hp400_12k8(Float32 signal[], Word32 lg, Float32 mem[])$/;"	f	file:
+E_UTIL_hp50_12k8	enc_util.c	/^void E_UTIL_hp50_12k8(Float32 signal[], Word32 lg, Float32 mem[])$/;"	f
+E_UTIL_interpol	enc_util.c	/^static Float32 E_UTIL_interpol(Float32 *x, Word32 frac, Word32 up_samp,$/;"	f	file:
+E_UTIL_l_extract	enc_util.c	/^void E_UTIL_l_extract(Word32 L_32, Word16 *hi, Word16 *lo)$/;"	f
+E_UTIL_log2_32	enc_util.c	/^void E_UTIL_log2_32 (Word32 L_x, Word16 *exponent, Word16 *fraction)$/;"	f
+E_UTIL_mpy_32_16	enc_util.c	/^Word32 E_UTIL_mpy_32_16 (Word16 hi, Word16 lo, Word16 n)$/;"	f
+E_UTIL_norm_l	enc_util.c	/^Word16 E_UTIL_norm_l (Word32 L_var1)$/;"	f
+E_UTIL_norm_s	enc_util.c	/^Word16 E_UTIL_norm_s (Word16 var1)$/;"	f
+E_UTIL_normalised_inverse_sqrt	enc_util.c	/^void E_UTIL_normalised_inverse_sqrt(Word32 *frac, Word16 *exp)$/;"	f
+E_UTIL_normalised_log2	enc_util.c	/^static void E_UTIL_normalised_log2(Word32 L_x, Word16 exp, Word16 *exponent,$/;"	f	file:
+E_UTIL_pow2	enc_util.c	/^Word32 E_UTIL_pow2(Word16 exponant, Word16 fraction)$/;"	f
+E_UTIL_preemph	enc_util.c	/^void E_UTIL_preemph(Word16 x[], Word16 mu, Word32 lg, Word16 *mem)$/;"	f
+E_UTIL_random	enc_util.c	/^Word16 E_UTIL_random(Word16 *seed)$/;"	f
+E_UTIL_residu	enc_util.c	/^void E_UTIL_residu(Float32 *a, Float32 *x, Float32 *y, Word32 l)$/;"	f
+E_UTIL_saturate	enc_util.c	/^Word16 E_UTIL_saturate(Word32 inp)$/;"	f
+E_UTIL_saturate_31	enc_util.c	/^Word32 E_UTIL_saturate_31(Word32 inp)$/;"	f
+E_UTIL_signal_down_scale	enc_util.c	/^void E_UTIL_signal_down_scale(Word16 x[], Word32 lg, Word16 exp)$/;"	f
+E_UTIL_signal_up_scale	enc_util.c	/^void E_UTIL_signal_up_scale(Word16 x[], Word16 exp)$/;"	f
+E_UTIL_synthesis	enc_util.c	/^void E_UTIL_synthesis(Float32 a[], Float32 x[], Float32 y[], Word32 l,$/;"	f
+FAC4	dec_util.c	18;"	d	file:
+FAC5	dec_util.c	19;"	d	file:
+FRAME_LEN	enc_dtx.c	29;"	d	file:
+F_3TH_CNT	enc_dtx.h	15;"	d
+F_5TH_CNT	enc_dtx.h	14;"	d
+F_MU	enc_lpc.c	19;"	d	file:
+F_PIT_SHARP	enc_gain.c	17;"	d	file:
+Float32	typedef.h	/^typedef float Float32;$/;"	t
+Float64	typedef.h	/^typedef double Float64;$/;"	t
+GAIN_FACTOR	dec_dtx.c	24;"	d	file:
+GAIN_PIT_MIN	enc_gain.c	24;"	d	file:
+GAIN_PIT_THRES	enc_gain.c	23;"	d	file:
+GAIN_THR	enc_dtx.c	18;"	d	file:
+GAMMA1	enc_main.c	30;"	d	file:
+HANG_HIGH	enc_dtx.c	68;"	d	file:
+HANG_LOW	enc_dtx.c	69;"	d	file:
+HANG_P1	enc_dtx.c	70;"	d	file:
+HANG_P2	enc_dtx.c	71;"	d	file:
+HANG_SLOPE	enc_dtx.c	72;"	d	file:
+HEADER_SIZE	enc_if.c	28;"	d	file:
+HEADER_SIZE	if_rom.c	44;"	d	file:
+HEADER_SIZE	if_rom.h	44;"	d
+HP_ORDER	enc_gain.c	13;"	d	file:
+IF_H	if_rom.c	7;"	d	file:
+IF_ROM_H	if_rom.h	7;"	d
+INV_FAC5	dec_util.c	21;"	d	file:
+INV_LENGTH	dec_lpc.c	20;"	d	file:
+ISF_DITH_GAP	dec_dtx.c	27;"	d	file:
+ISF_FACTOR_LOW	dec_dtx.c	25;"	d	file:
+ISF_FACTOR_STEP	dec_dtx.c	26;"	d	file:
+ISF_GAP	dec_dtx.c	22;"	d	file:
+ISF_GAP	dec_lpc.c	19;"	d	file:
+ISF_GAP	enc_lpc.c	13;"	d	file:
+LOST_FRAME	dec_if.c	25;"	d	file:
+L_FILT	dec_main.h	16;"	d
+L_FILT	enc_main.c	41;"	d	file:
+L_FILT16k	dec_main.h	17;"	d
+L_FILT16k	enc_main.h	14;"	d
+L_FIR	dec_rom.c	9;"	d	file:
+L_FIR	dec_util.c	23;"	d	file:
+L_FRAME	dec_dtx.c	15;"	d	file:
+L_FRAME	dec_main.c	21;"	d	file:
+L_FRAME	dec_main.h	12;"	d
+L_FRAME	enc_gain.c	11;"	d	file:
+L_FRAME	enc_main.h	12;"	d
+L_FRAME16k	dec_if.c	13;"	d	file:
+L_FRAME16k	dec_if.h	12;"	d
+L_FRAME16k	enc_if.c	13;"	d	file:
+L_FRAME16k	enc_if.h	11;"	d
+L_FRAME16k	enc_main.c	38;"	d	file:
+L_FRAME16k	enc_util.c	20;"	d	file:
+L_INTERPOL	dec_main.h	14;"	d
+L_INTERPOL	enc_main.c	37;"	d	file:
+L_INTERPOL	enc_main.h	17;"	d
+L_INTERPOL1	enc_gain.c	14;"	d	file:
+L_INTERPOL1	enc_rom.c	13;"	d	file:
+L_INTERPOL2	dec_gain.c	15;"	d	file:
+L_INTERPOL2	dec_rom.c	14;"	d	file:
+L_INTERPOL2	enc_gain.c	15;"	d	file:
+L_INTERPOL2	enc_rom.c	14;"	d	file:
+L_LTPHIST	dec_gain.c	11;"	d	file:
+L_MEANBUF	dec_lpc.c	15;"	d	file:
+L_MEANBUF	dec_main.h	15;"	d
+L_NEXT	enc_main.c	42;"	d	file:
+L_SUBFR	dec_acelp.c	10;"	d	file:
+L_SUBFR	dec_gain.c	10;"	d	file:
+L_SUBFR	dec_main.c	23;"	d	file:
+L_SUBFR	dec_rom.c	8;"	d	file:
+L_SUBFR	dec_util.c	14;"	d	file:
+L_SUBFR	enc_acelp.c	13;"	d	file:
+L_SUBFR	enc_gain.c	12;"	d	file:
+L_SUBFR	enc_main.c	39;"	d	file:
+L_SUBFR	enc_rom.c	8;"	d	file:
+L_SUBFR	enc_util.c	22;"	d	file:
+L_SUBFR16k	dec_util.c	15;"	d	file:
+L_SUBFR16k	enc_util.c	21;"	d	file:
+L_TOTAL	enc_main.h	13;"	d
+L_WINDOW	enc_rom.c	15;"	d	file:
+L_WINDOW	enc_util.c	24;"	d	file:
+M	dec_dtx.h	11;"	d
+M	dec_lpc.c	10;"	d	file:
+M	dec_rom.c	11;"	d	file:
+M	enc_dtx.h	11;"	d
+M	enc_lpc.c	14;"	d	file:
+M	enc_rom.c	10;"	d	file:
+M16k	dec_lpc.c	12;"	d	file:
+M16k	dec_main.h	18;"	d
+M16k	dec_util.c	16;"	d	file:
+M16k	enc_lpc.c	15;"	d	file:
+M16k	enc_util.c	23;"	d	file:
+MAX_16	dec_main.c	18;"	d	file:
+MAX_16	dec_util.c	12;"	d	file:
+MAX_16	enc_main.c	26;"	d	file:
+MAX_16	enc_util.c	16;"	d	file:
+MAX_31	dec_dtx.c	14;"	d	file:
+MAX_31	enc_util.c	18;"	d	file:
+MEAN_ENER	dec_acelp.c	12;"	d	file:
+MED_THRESH	enc_dtx.c	17;"	d	file:
+MIN_16	dec_main.c	19;"	d	file:
+MIN_16	dec_util.c	13;"	d	file:
+MIN_16	enc_main.c	27;"	d	file:
+MIN_16	enc_util.c	17;"	d	file:
+MIN_31	enc_util.c	19;"	d	file:
+MIN_SPEECH_LEVEL1	enc_dtx.c	41;"	d	file:
+MIN_SPEECH_LEVEL2	enc_dtx.c	42;"	d	file:
+MIN_SPEECH_SNR	enc_dtx.c	43;"	d	file:
+MODE_12k	dec_if.c	16;"	d	file:
+MODE_12k	dec_main.c	26;"	d	file:
+MODE_12k	enc_if.c	17;"	d	file:
+MODE_12k	enc_main.c	45;"	d	file:
+MODE_14k	dec_if.c	17;"	d	file:
+MODE_14k	dec_main.c	27;"	d	file:
+MODE_14k	enc_if.c	18;"	d	file:
+MODE_14k	enc_main.c	46;"	d	file:
+MODE_16k	dec_if.c	18;"	d	file:
+MODE_16k	dec_main.c	28;"	d	file:
+MODE_16k	enc_if.c	19;"	d	file:
+MODE_16k	enc_main.c	47;"	d	file:
+MODE_18k	dec_if.c	19;"	d	file:
+MODE_18k	dec_main.c	29;"	d	file:
+MODE_18k	enc_if.c	20;"	d	file:
+MODE_18k	enc_main.c	48;"	d	file:
+MODE_20k	dec_if.c	20;"	d	file:
+MODE_20k	dec_main.c	30;"	d	file:
+MODE_20k	enc_if.c	21;"	d	file:
+MODE_20k	enc_main.c	49;"	d	file:
+MODE_23k	dec_if.c	21;"	d	file:
+MODE_23k	dec_main.c	31;"	d	file:
+MODE_23k	enc_acelp.c	17;"	d	file:
+MODE_23k	enc_if.c	22;"	d	file:
+MODE_23k	enc_main.c	50;"	d	file:
+MODE_24k	dec_if.c	22;"	d	file:
+MODE_24k	dec_main.c	32;"	d	file:
+MODE_24k	dec_util.c	25;"	d	file:
+MODE_24k	enc_if.c	23;"	d	file:
+MODE_24k	enc_main.c	51;"	d	file:
+MODE_7k	dec_if.c	14;"	d	file:
+MODE_7k	dec_main.c	24;"	d	file:
+MODE_7k	dec_util.c	24;"	d	file:
+MODE_7k	enc_if.c	15;"	d	file:
+MODE_7k	enc_main.c	43;"	d	file:
+MODE_9k	dec_if.c	15;"	d	file:
+MODE_9k	dec_main.c	25;"	d	file:
+MODE_9k	enc_if.c	16;"	d	file:
+MODE_9k	enc_main.c	44;"	d	file:
+MP1	dec_lpc.c	11;"	d	file:
+MP1	enc_lpc.c	16;"	d	file:
+MRDTX	dec_if.c	23;"	d	file:
+MRDTX	enc_dtx.c	21;"	d	file:
+MRDTX	enc_if.c	24;"	d	file:
+MRDTX	enc_main.c	52;"	d	file:
+MRNO_DATA	dec_if.c	26;"	d	file:
+MRNO_DATA	enc_if.c	25;"	d	file:
+MU	dec_lpc.c	14;"	d	file:
+MU	enc_lpc.c	18;"	d	file:
+NBBITS_12k	if_rom.c	33;"	d	file:
+NBBITS_12k	if_rom.h	33;"	d
+NBBITS_14k	if_rom.c	34;"	d	file:
+NBBITS_14k	if_rom.h	34;"	d
+NBBITS_16k	if_rom.c	35;"	d	file:
+NBBITS_16k	if_rom.h	35;"	d
+NBBITS_18k	if_rom.c	36;"	d	file:
+NBBITS_18k	if_rom.h	36;"	d
+NBBITS_20k	if_rom.c	37;"	d	file:
+NBBITS_20k	if_rom.h	37;"	d
+NBBITS_23k	if_rom.c	38;"	d	file:
+NBBITS_23k	if_rom.h	38;"	d
+NBBITS_24k	if_rom.c	39;"	d	file:
+NBBITS_24k	if_rom.h	39;"	d
+NBBITS_7k	if_rom.c	31;"	d	file:
+NBBITS_7k	if_rom.h	31;"	d
+NBBITS_9k	if_rom.c	32;"	d	file:
+NBBITS_9k	if_rom.h	32;"	d
+NBBITS_SID	if_rom.c	40;"	d	file:
+NBBITS_SID	if_rom.h	40;"	d
+NB_COEF_UP	dec_util.c	22;"	d	file:
+NB_PARM_MAX	if_rom.c	27;"	d	file:
+NB_PARM_MAX	if_rom.h	27;"	d
+NB_PULSE_MAX	enc_acelp.c	14;"	d	file:
+NB_QUA_GAIN6B	enc_rom.c	31;"	d	file:
+NB_QUA_GAIN7B	enc_acelp.c	16;"	d	file:
+NB_QUA_GAIN7B	enc_rom.c	32;"	d	file:
+NB_SERIAL_MAX	dec_if.h	11;"	d
+NB_SERIAL_MAX	enc_if.h	12;"	d
+NB_SUBFR	dec_main.c	22;"	d	file:
+NB_SUBFR	dec_rom.c	12;"	d	file:
+NB_SUBFR	enc_main.c	40;"	d	file:
+NB_SUBFR	enc_rom.c	11;"	d	file:
+NC16k	dec_lpc.c	13;"	d	file:
+NC16k	enc_lpc.c	17;"	d	file:
+NOISE_INIT	enc_dtx.c	89;"	d	file:
+NOISE_MAX	enc_dtx.c	88;"	d	file:
+NOISE_MIN	enc_dtx.c	87;"	d	file:
+NOM_LEVEL	enc_dtx.c	39;"	d	file:
+NO_ITER	enc_lpc.c	30;"	d	file:
+NO_P1	enc_dtx.c	58;"	d	file:
+NO_P2	enc_dtx.c	59;"	d	file:
+NO_POINTS	enc_lpc.c	31;"	d	file:
+NO_SLOPE	enc_dtx.c	60;"	d	file:
+NPMAXPT	enc_acelp.c	15;"	d	file:
+NUM_OF_MODES	dec_if.c	24;"	d	file:
+NUM_OF_SPMODES	if_rom.c	14;"	d	file:
+NUM_OF_SPMODES	if_rom.h	14;"	d
+N_SURV_MAX	enc_lpc.c	20;"	d	file:
+ONE_ALPHA	dec_lpc.c	17;"	d	file:
+ONE_PER_3	dec_gain.c	12;"	d	file:
+ONE_PER_LTPHIST	dec_gain.c	13;"	d	file:
+OPL_DECIM	enc_main.h	16;"	d
+ORDER	dec_lpc.c	18;"	d	file:
+ORDER	dec_rom.c	10;"	d	file:
+ORDER	enc_dtx.c	19;"	d	file:
+ORDER	enc_lpc.c	12;"	d	file:
+ORDER	enc_rom.c	9;"	d	file:
+PI	enc_lpc.c	23;"	d	file:
+PIT_FR1_8b	dec_main.c	42;"	d	file:
+PIT_FR1_8b	enc_main.c	35;"	d	file:
+PIT_FR1_9b	dec_main.c	41;"	d	file:
+PIT_FR1_9b	enc_main.c	34;"	d	file:
+PIT_FR2	dec_main.c	40;"	d	file:
+PIT_FR2	enc_main.c	33;"	d	file:
+PIT_MAX	dec_main.h	13;"	d
+PIT_MAX	enc_main.c	36;"	d	file:
+PIT_MAX	enc_main.h	15;"	d
+PIT_MIN	dec_main.c	39;"	d	file:
+PIT_MIN	enc_gain.c	18;"	d	file:
+PIT_MIN	enc_main.c	32;"	d	file:
+PIT_SHARP	dec_main.c	38;"	d	file:
+PIT_SHARP	enc_gain.c	16;"	d	file:
+POW_PITCH_TONE_THR	enc_dtx.c	93;"	d	file:
+PRED_ORDER	dec_acelp.c	11;"	d	file:
+PREEMPH_FAC	dec_util.c	17;"	d	file:
+PREEMPH_FAC	enc_main.c	29;"	d	file:
+PREEMPH_FAC	enc_util.c	25;"	d	file:
+PRMNO_12k	if_rom.c	19;"	d	file:
+PRMNO_12k	if_rom.h	19;"	d
+PRMNO_14k	if_rom.c	20;"	d	file:
+PRMNO_14k	if_rom.h	20;"	d
+PRMNO_16k	if_rom.c	21;"	d	file:
+PRMNO_16k	if_rom.h	21;"	d
+PRMNO_18k	if_rom.c	22;"	d	file:
+PRMNO_18k	if_rom.h	22;"	d
+PRMNO_20k	if_rom.c	23;"	d	file:
+PRMNO_20k	if_rom.h	23;"	d
+PRMNO_23k	if_rom.c	24;"	d	file:
+PRMNO_23k	if_rom.h	24;"	d
+PRMNO_24k	if_rom.c	25;"	d	file:
+PRMNO_24k	if_rom.h	25;"	d
+PRMNO_7k	if_rom.c	17;"	d	file:
+PRMNO_7k	if_rom.h	17;"	d
+PRMNO_9k	if_rom.c	18;"	d	file:
+PRMNO_9k	if_rom.h	18;"	d
+PRMNO_SID	if_rom.c	26;"	d	file:
+PRMNO_SID	if_rom.h	26;"	d
+Q_MAX	dec_main.c	37;"	d	file:
+Q_MAX	enc_main.c	28;"	d	file:
+RANDOM_INITSEED	dec_dtx.c	30;"	d	file:
+RANDOM_INITSEED	enc_dtx.c	20;"	d	file:
+RX_NO_DATA	dec_dtx.c	21;"	d	file:
+RX_NO_DATA	dec_main.c	36;"	d	file:
+RX_NO_DATA	if_rom.c	68;"	d	file:
+RX_NO_DATA	if_rom.h	68;"	d
+RX_SID_BAD	dec_dtx.c	20;"	d	file:
+RX_SID_BAD	if_rom.c	67;"	d	file:
+RX_SID_BAD	if_rom.h	67;"	d
+RX_SID_FIRST	dec_dtx.c	18;"	d	file:
+RX_SID_FIRST	if_rom.c	65;"	d	file:
+RX_SID_FIRST	if_rom.h	65;"	d
+RX_SID_UPDATE	dec_dtx.c	19;"	d	file:
+RX_SID_UPDATE	if_rom.c	66;"	d	file:
+RX_SID_UPDATE	if_rom.h	66;"	d
+RX_SPEECH_BAD	dec_dtx.c	17;"	d	file:
+RX_SPEECH_BAD	dec_main.c	35;"	d	file:
+RX_SPEECH_BAD	if_rom.c	64;"	d	file:
+RX_SPEECH_BAD	if_rom.h	64;"	d
+RX_SPEECH_GOOD	if_rom.c	61;"	d	file:
+RX_SPEECH_GOOD	if_rom.h	61;"	d
+RX_SPEECH_LOST	dec_dtx.c	16;"	d	file:
+RX_SPEECH_LOST	dec_main.c	34;"	d	file:
+RX_SPEECH_LOST	if_rom.c	63;"	d	file:
+RX_SPEECH_LOST	if_rom.h	63;"	d
+RX_SPEECH_PROBABLY_DEGRADED	dec_main.c	33;"	d	file:
+RX_SPEECH_PROBABLY_DEGRADED	if_rom.c	62;"	d	file:
+RX_SPEECH_PROBABLY_DEGRADED	if_rom.h	62;"	d
+SCALE	enc_dtx.c	30;"	d	file:
+SCALE1	enc_lpc.c	27;"	d	file:
+SIZE_BK1	dec_rom.c	16;"	d	file:
+SIZE_BK1	enc_lpc.c	33;"	d	file:
+SIZE_BK1	enc_rom.c	16;"	d	file:
+SIZE_BK2	dec_rom.c	17;"	d	file:
+SIZE_BK2	enc_lpc.c	34;"	d	file:
+SIZE_BK2	enc_rom.c	17;"	d	file:
+SIZE_BK21	dec_rom.c	18;"	d	file:
+SIZE_BK21	enc_lpc.c	35;"	d	file:
+SIZE_BK21	enc_rom.c	18;"	d	file:
+SIZE_BK21_36b	dec_rom.c	23;"	d	file:
+SIZE_BK21_36b	enc_lpc.c	40;"	d	file:
+SIZE_BK21_36b	enc_rom.c	23;"	d	file:
+SIZE_BK22	dec_rom.c	19;"	d	file:
+SIZE_BK22	enc_lpc.c	36;"	d	file:
+SIZE_BK22	enc_rom.c	19;"	d	file:
+SIZE_BK22_36b	dec_rom.c	24;"	d	file:
+SIZE_BK22_36b	enc_lpc.c	41;"	d	file:
+SIZE_BK22_36b	enc_rom.c	24;"	d	file:
+SIZE_BK23	dec_rom.c	20;"	d	file:
+SIZE_BK23	enc_lpc.c	37;"	d	file:
+SIZE_BK23	enc_rom.c	20;"	d	file:
+SIZE_BK23_36b	dec_rom.c	25;"	d	file:
+SIZE_BK23_36b	enc_lpc.c	42;"	d	file:
+SIZE_BK23_36b	enc_rom.c	25;"	d	file:
+SIZE_BK24	dec_rom.c	21;"	d	file:
+SIZE_BK24	enc_lpc.c	38;"	d	file:
+SIZE_BK24	enc_rom.c	21;"	d	file:
+SIZE_BK25	dec_rom.c	22;"	d	file:
+SIZE_BK25	enc_lpc.c	39;"	d	file:
+SIZE_BK25	enc_rom.c	22;"	d	file:
+SIZE_BK_NOISE1	dec_rom.c	26;"	d	file:
+SIZE_BK_NOISE1	enc_dtx.c	23;"	d	file:
+SIZE_BK_NOISE1	enc_lpc.c	43;"	d	file:
+SIZE_BK_NOISE1	enc_rom.c	26;"	d	file:
+SIZE_BK_NOISE2	dec_rom.c	27;"	d	file:
+SIZE_BK_NOISE2	enc_dtx.c	24;"	d	file:
+SIZE_BK_NOISE2	enc_lpc.c	44;"	d	file:
+SIZE_BK_NOISE2	enc_rom.c	27;"	d	file:
+SIZE_BK_NOISE3	dec_rom.c	28;"	d	file:
+SIZE_BK_NOISE3	enc_dtx.c	25;"	d	file:
+SIZE_BK_NOISE3	enc_lpc.c	45;"	d	file:
+SIZE_BK_NOISE3	enc_rom.c	28;"	d	file:
+SIZE_BK_NOISE4	dec_rom.c	29;"	d	file:
+SIZE_BK_NOISE4	enc_dtx.c	26;"	d	file:
+SIZE_BK_NOISE4	enc_lpc.c	46;"	d	file:
+SIZE_BK_NOISE4	enc_rom.c	29;"	d	file:
+SIZE_BK_NOISE5	dec_rom.c	30;"	d	file:
+SIZE_BK_NOISE5	enc_dtx.c	27;"	d	file:
+SIZE_BK_NOISE5	enc_lpc.c	47;"	d	file:
+SIZE_BK_NOISE5	enc_rom.c	30;"	d	file:
+SPEECH	dec_dtx.h	12;"	d
+SPEECH_LEVEL_INIT	enc_dtx.c	40;"	d	file:
+SP_ACTIVITY_COUNT	enc_dtx.c	35;"	d	file:
+SP_CH_MAX	enc_dtx.c	62;"	d	file:
+SP_CH_MIN	enc_dtx.c	61;"	d	file:
+SP_EST_COUNT	enc_dtx.c	34;"	d	file:
+SP_P1	enc_dtx.c	63;"	d	file:
+SP_P2	enc_dtx.c	64;"	d	file:
+SP_SLOPE	enc_dtx.c	65;"	d	file:
+STAT_COUNT	enc_dtx.c	82;"	d	file:
+STAT_THR	enc_dtx.c	84;"	d	file:
+STAT_THR_LEVEL	enc_dtx.c	83;"	d	file:
+THR_HIGH	enc_dtx.c	56;"	d	file:
+THR_LOW	enc_dtx.c	57;"	d	file:
+THR_MIN	enc_dtx.c	55;"	d	file:
+TILT_FAC	enc_main.c	31;"	d	file:
+TONE_THR	enc_dtx.c	31;"	d	file:
+TX_NO_DATA	if_rom.c	59;"	d	file:
+TX_NO_DATA	if_rom.h	59;"	d
+TX_SID_FIRST	if_rom.c	57;"	d	file:
+TX_SID_FIRST	if_rom.h	57;"	d
+TX_SID_UPDATE	if_rom.c	58;"	d	file:
+TX_SID_UPDATE	if_rom.h	58;"	d
+TX_SPEECH	if_rom.c	56;"	d	file:
+TX_SPEECH	if_rom.h	56;"	d
+T_NBBITS_12k	enc_if.c	31;"	d	file:
+T_NBBITS_12k	if_rom.c	47;"	d	file:
+T_NBBITS_12k	if_rom.h	47;"	d
+T_NBBITS_14k	enc_if.c	32;"	d	file:
+T_NBBITS_14k	if_rom.c	48;"	d	file:
+T_NBBITS_14k	if_rom.h	48;"	d
+T_NBBITS_16k	enc_if.c	33;"	d	file:
+T_NBBITS_16k	if_rom.c	49;"	d	file:
+T_NBBITS_16k	if_rom.h	49;"	d
+T_NBBITS_18k	enc_if.c	34;"	d	file:
+T_NBBITS_18k	if_rom.c	50;"	d	file:
+T_NBBITS_18k	if_rom.h	50;"	d
+T_NBBITS_20k	enc_if.c	35;"	d	file:
+T_NBBITS_20k	if_rom.c	51;"	d	file:
+T_NBBITS_20k	if_rom.h	51;"	d
+T_NBBITS_23k	enc_if.c	36;"	d	file:
+T_NBBITS_23k	if_rom.c	52;"	d	file:
+T_NBBITS_23k	if_rom.h	52;"	d
+T_NBBITS_24k	enc_if.c	37;"	d	file:
+T_NBBITS_24k	if_rom.c	53;"	d	file:
+T_NBBITS_24k	if_rom.h	53;"	d
+T_NBBITS_7k	enc_if.c	29;"	d	file:
+T_NBBITS_7k	if_rom.c	45;"	d	file:
+T_NBBITS_7k	if_rom.h	45;"	d
+T_NBBITS_9k	enc_if.c	30;"	d	file:
+T_NBBITS_9k	if_rom.c	46;"	d	file:
+T_NBBITS_9k	if_rom.h	46;"	d
+T_NBBITS_SID	enc_if.c	38;"	d	file:
+T_NBBITS_SID	if_rom.c	54;"	d	file:
+T_NBBITS_SID	if_rom.h	54;"	d
+UP_FAC	dec_util.c	20;"	d	file:
+UP_SAMP	dec_gain.c	14;"	d	file:
+UP_SAMP	dec_rom.c	13;"	d	file:
+UP_SAMP	enc_gain.c	19;"	d	file:
+UP_SAMP	enc_rom.c	12;"	d	file:
+UWord16	typedef.h	/^typedef unsigned short UWord16;$/;"	t
+UWord8	typedef.h	/^typedef unsigned char UWord8;$/;"	t
+VAD_POW_LOW	enc_dtx.c	92;"	d	file:
+WB_E_IF_H	enc_if.h	7;"	d
+WB_dec_if_state	dec_if.c	/^} WB_dec_if_state;$/;"	t	typeref:struct:__anon2	file:
+WB_enc_if_state	enc_if.c	/^} WB_enc_if_state;$/;"	t	typeref:struct:__anon6	file:
+Word16	typedef.h	/^typedef short Word16;$/;"	t
+Word32	typedef.h	/^typedef long Word32;$/;"	t
+Word8	typedef.h	/^typedef char Word8;$/;"	t
+_bad_frame	dec_if.h	15;"	d
+_good_frame	dec_if.h	14;"	d
+_lost_frame	dec_if.h	16;"	d
+_no_frame	dec_if.h	17;"	d
+block_size	if_rom.c	/^const UWord8 block_size[16]= {18, 23, 33, 37, 41, 47, 51, 59, 61, 6, 6, 0, 0, 0, 1, 1};$/;"	v
+block_size	if_rom.c	/^const UWord8 block_size[16]= {18, 24, 33, 37, 41, 47, 51, 59, 61, 6, 6, 0, 0, 0, 1, 1};$/;"	v
+decoder_state	dec_if.c	/^   void *decoder_state;       \/* Points decoder state       *\/$/;"	m	struct:__anon2	file:
+dfh_M12k	if_rom.c	/^const Word16 dfh_M12k[PRMNO_12k] = {$/;"	v
+dfh_M14k	if_rom.c	/^const Word16 dfh_M14k[PRMNO_14k] = {$/;"	v
+dfh_M16k	if_rom.c	/^const Word16 dfh_M16k[PRMNO_16k] = {$/;"	v
+dfh_M18k	if_rom.c	/^const Word16 dfh_M18k[PRMNO_18k] = {$/;"	v
+dfh_M20k	if_rom.c	/^const Word16 dfh_M20k[PRMNO_20k] = {$/;"	v
+dfh_M23k	if_rom.c	/^const Word16 dfh_M23k[PRMNO_23k] = {$/;"	v
+dfh_M24k	if_rom.c	/^const Word16 dfh_M24k[PRMNO_24k] = {$/;"	v
+dfh_M7k	if_rom.c	/^const Word16 dfh_M7k[PRMNO_7k] = {$/;"	v
+dfh_M9k	if_rom.c	/^const Word16 dfh_M9k[PRMNO_9k] = {$/;"	v
+dhf	enc_if.c	/^const Word16 *dhf[10];$/;"	v
+dhf	if_rom.c	/^const Word16 *dhf[10] = {$/;"	v
+dtx_decSt	dec_main.h	/^   D_DTX_State *dtx_decSt;$/;"	m	struct:__anon3
+dtx_encSt	enc_main.h	/^   E_DTX_State *dtx_encSt;$/;"	m	struct:__anon7
+encoder_state	enc_if.c	/^   void *encoder_state;         \/* Points encoder state structure *\/$/;"	m	struct:__anon6	file:
+main	decoder.c	/^int main(int argc, char *argv[])$/;"	f
+main	encoder.c	/^int main(int argc, char *argv[])$/;"	f
+mem_T0	dec_main.h	/^   Word16 mem_T0;                   \/* old pitch lag                       *\/$/;"	m	struct:__anon3
+mem_T0_frac	dec_main.h	/^   Word16 mem_T0_frac;              \/* old pitch fraction lag              *\/$/;"	m	struct:__anon3
+mem_T0_med	enc_main.h	/^   Word32 mem_T0_med;                  \/* weighted open loop pitch lag       *\/$/;"	m	struct:__anon7
+mem_a_data3	enc_dtx.h	/^   Float32 mem_a_data3[F_3TH_CNT];  \/* memory for the filter bank            *\/$/;"	m	struct:__anon5
+mem_a_data5	enc_dtx.h	/^   Float32 mem_a_data5[F_5TH_CNT][2];\/* memory for the filter bank           *\/$/;"	m	struct:__anon5
+mem_ada_w	enc_main.h	/^   Float32 mem_ada_w;                  \/* weighting level                    *\/$/;"	m	struct:__anon7
+mem_ave_level	enc_dtx.h	/^   Float32 mem_ave_level[COMPLEN];  \/* averaged input components             *\/$/;"	m	struct:__anon5
+mem_bckr_est	enc_dtx.h	/^   Float32 mem_bckr_est[COMPLEN];   \/* background noise estimate             *\/$/;"	m	struct:__anon5
+mem_bfi	dec_main.h	/^   UWord8 mem_bfi;                  \/* Previous BFI                        *\/$/;"	m	struct:__anon3
+mem_burst_count	enc_dtx.h	/^   Word16 mem_burst_count;          \/* counts length of a speech burst       *\/$/;"	m	struct:__anon5
+mem_cn_dith	dec_dtx.h	/^   Word16 mem_cn_dith;           \/* background noise stationarity information*\/$/;"	m	struct:__anon1
+mem_cng_seed	dec_dtx.h	/^   Word16 mem_cng_seed;          \/* Comfort noise excitation seed            *\/$/;"	m	struct:__anon1
+mem_cng_seed	enc_dtx.h	/^   Word16 mem_cng_seed;             \/* Comfort noise excitation seed         *\/$/;"	m	struct:__anon4
+mem_data_updated	dec_dtx.h	/^   UWord8 mem_data_updated;      \/* flags CNI updates                        *\/$/;"	m	struct:__anon1
+mem_dec_ana_elapsed_count	dec_dtx.h	/^   UWord8 mem_dec_ana_elapsed_count;\/* counts elapsed speech frames after DTX*\/$/;"	m	struct:__anon1
+mem_dec_ana_elapsed_count	enc_dtx.h	/^   Word16 mem_dec_ana_elapsed_count;\/* counter for elapsed speech frames     *\/$/;"	m	struct:__anon4
+mem_decim	enc_main.h	/^   Float32 mem_decim[2 * L_FILT16k];   \/* speech decimated filter memory     *\/$/;"	m	struct:__anon7
+mem_decim2	enc_main.h	/^   Float32 mem_decim2[3];              \/* wsp decimation filter memory       *\/$/;"	m	struct:__anon7
+mem_deemph	dec_main.h	/^   Word16 mem_deemph;               \/* speech deemph filter memory         *\/$/;"	m	struct:__anon3
+mem_deemph	enc_main.h	/^   Float32 mem_deemph;                 \/* speech deemph filter memory        *\/$/;"	m	struct:__anon7
+mem_distance	enc_dtx.h	/^   Float32 mem_distance[28];           \/* ISF history distance matrix        *\/$/;"	m	struct:__anon4
+mem_distance_sum	enc_dtx.h	/^   Float32 mem_distance_sum[DTX_HIST_SIZE];\/* Sum of ISF history distances   *\/$/;"	m	struct:__anon4
+mem_dither_seed	dec_dtx.h	/^   Word16 mem_dither_seed;       \/* comfort noise dithering seed             *\/$/;"	m	struct:__anon1
+mem_dtx_global_state	dec_dtx.h	/^   UWord8 mem_dtx_global_state;  \/* DTX state flags                          *\/$/;"	m	struct:__anon1
+mem_dtx_hangover_added	dec_dtx.h	/^   UWord8 mem_dtx_hangover_added;\/* flags hangover period at end of speech   *\/$/;"	m	struct:__anon1
+mem_dtx_hangover_count	dec_dtx.h	/^   UWord8 mem_dtx_hangover_count;\/* counts down in hangover period           *\/$/;"	m	struct:__anon1
+mem_dtx_hangover_count	enc_dtx.h	/^   Word16 mem_dtx_hangover_count;   \/* DTX hangover period                   *\/$/;"	m	struct:__anon4
+mem_dtx_vad_hist	dec_dtx.h	/^   Word16 mem_dtx_vad_hist;      \/* "hangover counter"                       *\/$/;"	m	struct:__anon1
+mem_exc	dec_main.h	/^   Word16 mem_exc[(L_FRAME + 1) + PIT_MAX + L_INTERPOL];\/* old excitation vector *\/$/;"	m	struct:__anon3
+mem_exc	enc_main.h	/^   Word16 mem_exc[(L_FRAME + 1) + PIT_MAX + L_INTERPOL];$/;"	m	struct:__anon7
+mem_first_frame	dec_main.h	/^   UWord8 mem_first_frame;          \/* First frame indicator               *\/$/;"	m	struct:__anon3
+mem_first_frame	enc_main.h	/^   UWord8 mem_first_frame;             \/* First frame indicator              *\/$/;"	m	struct:__anon7
+mem_gain	dec_main.h	/^   Word16 mem_gain[23];             \/* gain decoder memory                 *\/$/;"	m	struct:__anon3
+mem_gain_alpha	enc_main.h	/^   Float32 mem_gain_alpha;             \/* Higher band gain weighting factor  *\/$/;"	m	struct:__anon7
+mem_gain_q	enc_main.h	/^   Word16 mem_gain_q[4];               \/* gain quantizer memory              *\/$/;"	m	struct:__anon7
+mem_gc_thres	dec_main.h	/^   Word32 mem_gc_thres;             \/* threshold for noise enhancer        *\/$/;"	m	struct:__anon3
+mem_gc_threshold	enc_main.h	/^   Float32 mem_gc_threshold;           \/* threshold for noise enhancer       *\/$/;"	m	struct:__anon7
+mem_gp_clip	enc_main.h	/^   Float32 mem_gp_clip[2];             \/* gain of pitch clipping memory      *\/$/;"	m	struct:__anon7
+mem_hang_count	enc_dtx.h	/^   Word16 mem_hang_count;           \/* hangover counter                      *\/$/;"	m	struct:__anon5
+mem_hf	dec_main.h	/^   Word16 mem_hf[2 * L_FILT16k];    \/* HF band-pass filter memory          *\/$/;"	m	struct:__anon3
+mem_hf	enc_main.h	/^   Float32 mem_hf[2 * L_FILT16k];      \/* HF band-pass filter memory         *\/$/;"	m	struct:__anon7
+mem_hf2	dec_main.h	/^   Word16 mem_hf2[2 * L_FILT16k];   \/* HF band-pass filter memory          *\/$/;"	m	struct:__anon3
+mem_hf2	enc_main.h	/^   Float32 mem_hf2[2 * L_FILT16k];     \/* HF band-pass filter memory         *\/$/;"	m	struct:__anon7
+mem_hf3	dec_main.h	/^   Word16 mem_hf3[2 * L_FILT16k];   \/* HF band-pass filter memory          *\/$/;"	m	struct:__anon3
+mem_hf3	enc_main.h	/^   Float32 mem_hf3[2 * L_FILT16k];     \/* HF band-pass filter memory         *\/$/;"	m	struct:__anon7
+mem_hf_wsp	enc_main.h	/^   Float32 mem_hf_wsp[9];              \/* Open-loop lag gain filter memory   *\/$/;"	m	struct:__anon7
+mem_hist_ptr	dec_dtx.h	/^   Word16 mem_hist_ptr;          \/* index to beginning of LSF history        *\/$/;"	m	struct:__anon1
+mem_hist_ptr	enc_dtx.h	/^   Word16 mem_hist_ptr;             \/* pointer to the cyclic history vectors *\/$/;"	m	struct:__anon4
+mem_hp400	dec_main.h	/^   Word16 mem_hp400[6];             \/* hp400 filter memory for synthesis   *\/$/;"	m	struct:__anon3
+mem_hp400	enc_main.h	/^   Float32 mem_hp400[4];               \/* hp400 filter memory for synthesis  *\/$/;"	m	struct:__anon7
+mem_hp_wsp	enc_main.h	/^   Float32 mem_hp_wsp[L_FRAME \/ OPL_DECIM + (PIT_MAX \/ OPL_DECIM)];$/;"	m	struct:__anon7
+mem_isf	dec_dtx.h	/^   Word16 mem_isf[M];            \/* ISF vector                               *\/$/;"	m	struct:__anon1
+mem_isf	dec_main.h	/^   Word16 mem_isf[M];               \/* old isf (frequency domain)          *\/$/;"	m	struct:__anon3
+mem_isf	enc_dtx.h	/^   Float32 mem_isf[M * DTX_HIST_SIZE]; \/* LSP history                        *\/$/;"	m	struct:__anon4
+mem_isf	enc_main.h	/^   Float32 mem_isf[M];                 \/* old isf (frequency domain)         *\/$/;"	m	struct:__anon7
+mem_isf_buf	dec_dtx.h	/^   Word16 mem_isf_buf[M * D_DTX_HIST_SIZE];  \/* ISF vector history (8 frames)*\/$/;"	m	struct:__anon1
+mem_isf_buf	dec_main.h	/^   Word16 mem_isf_buf[L_MEANBUF * M];\/* isf buffer(frequency domain)        *\/$/;"	m	struct:__anon3
+mem_isf_prev	dec_dtx.h	/^   Word16 mem_isf_prev[M];       \/* Previous ISF vector                      *\/$/;"	m	struct:__anon1
+mem_isf_q	dec_main.h	/^   Word16 mem_isf_q[M];             \/* past isf quantizer                  *\/$/;"	m	struct:__anon3
+mem_isf_q	enc_main.h	/^   Word16 mem_isf_q[M];                \/* past isf quantizer                 *\/$/;"	m	struct:__anon7
+mem_isp	dec_main.h	/^   Word16 mem_isp[M];               \/* old isp (immittance spectral pairs) *\/$/;"	m	struct:__anon3
+mem_isp	enc_main.h	/^   Float32 mem_isp[M];                 \/* old isp (immittance spectral pairs)*\/$/;"	m	struct:__anon7
+mem_isp_q	enc_main.h	/^   Word16 mem_isp_q[M];                \/* quantized old isp                  *\/$/;"	m	struct:__anon7
+mem_lag	dec_main.h	/^   Word16 mem_lag[5];               \/* LTP lag history                     *\/$/;"	m	struct:__anon3
+mem_level	enc_dtx.h	/^   Float32 mem_level[COMPLEN];      \/* input levels of the previous frame    *\/$/;"	m	struct:__anon5
+mem_log_en	dec_dtx.h	/^   Word16 mem_log_en;            \/* logarithmic frame energy                 *\/$/;"	m	struct:__anon1
+mem_log_en	enc_dtx.h	/^   Float32 mem_log_en[DTX_HIST_SIZE];  \/* logarithmic frame energy history   *\/$/;"	m	struct:__anon4
+mem_log_en_buf	dec_dtx.h	/^   Word16 mem_log_en_buf[D_DTX_HIST_SIZE];\/* logarithmic frame energy history*\/$/;"	m	struct:__anon1
+mem_log_en_index	enc_dtx.h	/^   Word16 mem_log_en_index;         \/* Index for logarithmic energy          *\/$/;"	m	struct:__anon4
+mem_log_en_prev	dec_dtx.h	/^   Word16 mem_log_en_prev;       \/* previous logarithmic frame energy        *\/$/;"	m	struct:__anon1
+mem_ol_gain	enc_main.h	/^   Float32 mem_ol_gain;                \/* Open-loop gain                     *\/$/;"	m	struct:__anon7
+mem_ol_lag	enc_main.h	/^   Word32 mem_ol_lag[5];               \/* Open loop lag history              *\/$/;"	m	struct:__anon7
+mem_ol_wght_flg	enc_main.h	/^   UWord8 mem_ol_wght_flg;             \/* switches lag weighting on and off  *\/$/;"	m	struct:__anon7
+mem_oversamp	dec_main.h	/^   Word16 mem_oversamp[2 * L_FILT]; \/* synthesis oversampled filter memory *\/$/;"	m	struct:__anon3
+mem_ph_disp	dec_main.h	/^   Word16 mem_ph_disp[8];           \/* phase dispersion memory             *\/$/;"	m	struct:__anon3
+mem_pitch_tone	enc_dtx.h	/^   Word16 mem_pitch_tone;           \/* flags for pitch and tone detection    *\/$/;"	m	struct:__anon5
+mem_pow_sum	enc_dtx.h	/^   Float64 mem_pow_sum;             \/* power of previous frame               *\/$/;"	m	struct:__anon5
+mem_preemph	enc_main.h	/^   Float32 mem_preemph;                \/* speech preemph filter memory       *\/$/;"	m	struct:__anon7
+mem_q	dec_main.h	/^   Word16 mem_q;                    \/* old scaling factor                  *\/$/;"	m	struct:__anon3
+mem_q	enc_main.h	/^   Word16 mem_q;                       \/* old scaling factor                 *\/$/;"	m	struct:__anon7
+mem_seed	dec_main.h	/^   Word16 mem_seed;                 \/* random memory for frame erasure     *\/$/;"	m	struct:__anon3
+mem_seed	enc_main.h	/^   Word16 mem_seed;                    \/* random memory for HF generation    *\/$/;"	m	struct:__anon7
+mem_seed2	dec_main.h	/^   Word16 mem_seed2;                \/* random memory for HF generation     *\/$/;"	m	struct:__anon3
+mem_seed3	dec_main.h	/^   Word16 mem_seed3;                \/* random memory for lag concealment   *\/$/;"	m	struct:__anon3
+mem_sid_frame	dec_dtx.h	/^   UWord8 mem_sid_frame;         \/* flags SID frames                         *\/$/;"	m	struct:__anon1
+mem_sig_in	enc_main.h	/^   Float32 mem_sig_in[4];              \/* hp50 filter memory                 *\/$/;"	m	struct:__anon7
+mem_sig_out	dec_main.h	/^   Word16 mem_sig_out[6];           \/* hp50 filter memory for synthesis    *\/$/;"	m	struct:__anon3
+mem_sig_out	enc_main.h	/^   Float32 mem_sig_out[4];             \/* hp50 filter memory for synthesis   *\/$/;"	m	struct:__anon7
+mem_since_last_sid	dec_dtx.h	/^   Word16 mem_since_last_sid;    \/* number of frames since last SID frame    *\/$/;"	m	struct:__anon1
+mem_sp_est_cnt	enc_dtx.h	/^   Word16 mem_sp_est_cnt;           \/* counter for speech level estimation   *\/$/;"	m	struct:__anon5
+mem_sp_max	enc_dtx.h	/^   Float32 mem_sp_max;              \/* maximum level                         *\/$/;"	m	struct:__anon5
+mem_sp_max_cnt	enc_dtx.h	/^   Word16 mem_sp_max_cnt;           \/* counts frames that contains speech    *\/$/;"	m	struct:__anon5
+mem_speech	enc_main.h	/^   Float32 mem_speech[L_TOTAL];        \/* old speech vector at 12.8kHz       *\/$/;"	m	struct:__anon7
+mem_speech_level	enc_dtx.h	/^   Float32 mem_speech_level;        \/* estimated speech level                *\/$/;"	m	struct:__anon5
+mem_stat_count	enc_dtx.h	/^   Word16 mem_stat_count;           \/* stationary counter                    *\/$/;"	m	struct:__anon5
+mem_state	dec_main.h	/^   UWord8 mem_state;                \/* BGH state machine memory            *\/$/;"	m	struct:__anon3
+mem_sub_level	enc_dtx.h	/^   Float32 mem_sub_level[COMPLEN];  \/* input levels calculated at the end of *\/$/;"	m	struct:__anon5
+mem_subfr_q	dec_main.h	/^   Word16 mem_subfr_q[4];           \/* old maximum scaling factor          *\/$/;"	m	struct:__anon3
+mem_subfr_q	enc_main.h	/^   Word16 mem_subfr_q[4];              \/* old maximum scaling factor         *\/$/;"	m	struct:__anon7
+mem_syn	enc_main.h	/^   Float32 mem_syn[M];                 \/* synthesis memory                   *\/$/;"	m	struct:__anon7
+mem_syn2	enc_main.h	/^   Float32 mem_syn2[M];                \/* modified synthesis memory          *\/$/;"	m	struct:__anon7
+mem_syn_hf	dec_main.h	/^   Word16 mem_syn_hf[M16k];         \/* HF synthesis memory                 *\/$/;"	m	struct:__anon3
+mem_syn_hf	enc_main.h	/^   Float32 mem_syn_hf[M];              \/* HF synthesis memory                *\/$/;"	m	struct:__anon7
+mem_syn_hi	dec_main.h	/^   Word16 mem_syn_hi[M];            \/* modified synthesis memory (MSB)     *\/$/;"	m	struct:__anon3
+mem_syn_lo	dec_main.h	/^   Word16 mem_syn_lo[M];            \/* modified synthesis memory (LSB)     *\/$/;"	m	struct:__anon3
+mem_tilt_code	dec_main.h	/^   Word16 mem_tilt_code;            \/* tilt of code                        *\/$/;"	m	struct:__anon3
+mem_tilt_code	enc_main.h	/^   Word16 mem_tilt_code;               \/* tilt of code                       *\/$/;"	m	struct:__anon7
+mem_true_sid_period_inv	dec_dtx.h	/^   Word16 mem_true_sid_period_inv;  \/* inverse of true SID update rate       *\/$/;"	m	struct:__anon1
+mem_vad_hist	dec_main.h	/^   UWord16 mem_vad_hist;            \/* VAD history                         *\/$/;"	m	struct:__anon3
+mem_vad_hist	enc_main.h	/^   UWord8 mem_vad_hist;                \/* VAD history                        *\/$/;"	m	struct:__anon7
+mem_vadreg	enc_dtx.h	/^   Word16 mem_vadreg;               \/* flags for intermediate VAD decisions  *\/$/;"	m	struct:__anon5
+mem_valid_data	dec_dtx.h	/^   UWord8 mem_valid_data;        \/* flags SID frames containing valid data   *\/$/;"	m	struct:__anon1
+mem_w0	enc_main.h	/^   Float32 mem_w0;                     \/* target vector memory               *\/$/;"	m	struct:__anon7
+mem_wsp	enc_main.h	/^   Float32 mem_wsp[L_FRAME + PIT_MAX \/ OPL_DECIM]; \/* old decimated weighted *\/$/;"	m	struct:__anon7
+mem_wsp_df	enc_main.h	/^   Float32 mem_wsp_df;                 \/* Open-loop LTP deemph filter memory *\/$/;"	m	struct:__anon7
+mode_12k	if_rom.c	/^const Word16 mode_12k[NBBITS_12k << 1] = {$/;"	v
+mode_14k	if_rom.c	/^const Word16 mode_14k[NBBITS_14k << 1] = {$/;"	v
+mode_16k	if_rom.c	/^const Word16 mode_16k[NBBITS_16k << 1] = {$/;"	v
+mode_18k	if_rom.c	/^const Word16 mode_18k[NBBITS_18k << 1] = {$/;"	v
+mode_20k	if_rom.c	/^const Word16 mode_20k[NBBITS_20k << 1] = {$/;"	v
+mode_23k	if_rom.c	/^const Word16 mode_23k[NBBITS_23k << 1] = {$/;"	v
+mode_24k	if_rom.c	/^const Word16 mode_24k[NBBITS_24k << 1] = {$/;"	v
+mode_7k	if_rom.c	/^const Word16 mode_7k[NBBITS_7k << 1] = {$/;"	v
+mode_9k	if_rom.c	/^const Word16 mode_9k[NBBITS_9k << 1] = {$/;"	v
+mode_DTX	if_rom.c	/^const Word16 mode_DTX[NBBITS_SID << 1] = {$/;"	v
+nb_of_param	if_rom.c	/^const Word16 nb_of_param[NUM_OF_SPMODES]= {$/;"	v
+nb_of_param_first	dec_if.c	/^Word16 nb_of_param_first[NUM_OF_SPMODES]=$/;"	v
+prev_ft	dec_if.c	/^   Word16 prev_ft;            \/* previous frame type        *\/$/;"	m	struct:__anon2	file:
+prev_ft	enc_if.c	/^   Word16 prev_ft;              \/* Type of the previous frame *\/$/;"	m	struct:__anon6	file:
+prev_mode	dec_if.c	/^   Word16 prev_mode;          \/* previous mode              *\/$/;"	m	struct:__anon2	file:
+reset_flag_old	dec_if.c	/^   Word16 reset_flag_old;     \/* previous was homing frame  *\/$/;"	m	struct:__anon2	file:
+sid_handover_debt	enc_if.c	/^   Word16 sid_handover_debt;    \/* Number of extra SID_UPD frames to schedule *\/$/;"	m	struct:__anon6	file:
+sid_update_counter	enc_if.c	/^   Word16 sid_update_counter;   \/* Number of frames since last SID *\/$/;"	m	struct:__anon6	file:
+typedef_h	typedef.h	7;"	d
+vadSt	enc_main.h	/^   E_DTX_Vad_State *vadSt;$/;"	m	struct:__anon7
